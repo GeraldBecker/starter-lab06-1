@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Order #3 Gerald's own special burger.
+one cheese, three toppings, and two sauces.
+-->
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="eatin">
+    <customer>Gerald</customer>
+    <burger>
+        <patty type="bison"/>
+        <cheeses top="jack" bottom="goat"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+        <topping type="bacon"/>
+        <sauce type="ketchup"/>
+        <sauce type="mustard"/>
+    </burger>
+    <burger>
+        <patty type="beef"/>
+        <cheeses top="swiss" bottom="aged"/>
+        <topping type="lettuce"/>
+        <topping type="salsa"/>
+        <topping type="tomato"/>
+        <topping type="peanutbutter"/>
+        <sauce type="ketchup"/>
+        <sauce type="mayo"/>
+        <instructions>"Give me lots of peanut butter"</instructions>
+    </burger>
+</order>
+
